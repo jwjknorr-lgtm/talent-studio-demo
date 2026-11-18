@@ -31,7 +31,7 @@ small{display:block;margin-top:18px;color:var(--muted);font-size:.8rem}
 </main>
 <script>
 (function () {
-  var SALT = 'arzWFPrrornaxc3ZaEsbvQ==', CHECK = '5uNaf1gSX0zDsxsJYNIqvleCQSeMEgb95HegvfocF00LY1MFra7ka/Gm8bw=', ROUNDS = 600000;
+  var SALT = 'arzWFPrrornaxc3ZaEsbvQ==', CHECK = 'x7FhtDfupQqhJsyfAytqyxP2crR55CwTjwJUCPZ03n+kC4iyRakEulKu3LM=', ROUNDS = 600000;
   var f = document.getElementById('f'), input = document.getElementById('code'), msg = document.getElementById('msg'), go = document.getElementById('go'), keep = document.getElementById('keep');
   function b64(s) { return Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); }); }
   function say(t, bad) { msg.textContent = t; msg.className = bad ? 'bad' : ''; }
